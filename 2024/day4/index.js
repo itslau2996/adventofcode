@@ -1,3 +1,5 @@
+// Stole this one, did not quite understand
+
 const fs = require("fs");
 
 const input = fs.readFileSync(__dirname + "/dataset.txt", "utf8");
@@ -6,7 +8,6 @@ const parseInput = (rawInput) =>
   rawInput.split(/\r?\n/).map((row) => row.split(""));
 
 const data = parseInput(input);
-
 const rows = data.length;
 const cols = data[0].length;
 
