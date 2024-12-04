@@ -1,4 +1,4 @@
-// Stole this one, did not quite understand
+// Stole this one, did not quite understand at that point
 
 const fs = require("fs");
 
