@@ -1,7 +1,7 @@
 YEAR_DIR=2024
 
 run-%:
-	@bun ./2024/$(addprefix day,$*)/index.js
+	@bun ./2024/$(addprefix day,$*)/index
 # Default target to create the folder and files
 create-%:
 	@mkdir -p $(YEAR_DIR)/day$*                # Create the folder named day<DAY>
